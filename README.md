@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# CRA esri-loader
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project shows how to use [esri-loader](https://github.com/Esri/esri-loader) in an application bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+![Screenshot](./screenshot.png)
+
+The [ArcGIS API for JavaScript](https://developers.arcgis.com/javascript/) code was copied from this [sample repository](https://github.com/Esri/jsapi-resources/tree/master/esm-samples/jsapi-create-react-app) that shows how to use [@arcgis/core](https://www.npmjs.com/package/@arcgis/core) in CRA. The only change needed was to replace [these `import` statements](https://github.com/Esri/jsapi-resources/blob/f0f549d6a8d81e4a4d848e994f6a6d431ba5c652/esm-samples/jsapi-create-react-app/src/App.js#L1-L5) with [this call to `loadModules()`](./src/App.js#L11-L17).
 
 ## Available Scripts
 
